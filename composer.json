@@ -8,7 +8,8 @@
 		"way/generators": "2.*",
 		"fzaninotto/faker": "v1.3.0",
 		"cornernote/themer": "dev-master",
-		"michelf/php-markdown": "1.4.1"
+		"michelf/php-markdown": "1.4.1",
+		"laracasts/commander": "~1.0"
 	},
 	"autoload": {
 		"classmap": [
