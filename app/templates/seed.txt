@@ -1,0 +1,31 @@
+<?php
+
+// Composer: "fzaninotto/faker": "v1.3.0"
+
+//  Faker Examples:
+//     'title' => trim(ucwords($faker->sentence(8)), ','),
+//     'organization' => $faker->company(),
+//     'overview' => $faker->paragraph(5),
+//     'url' => $faker->url(),
+//     'user_id' => $faker->numberBetween(0, 31),
+
+use Faker\Factory as Faker;
+
+class $CLASS$ extends Seeder {
+
+	public function run()
+	{
+
+                        $MODEL$::truncate();
+
+		$faker = Faker::create();
+
+		foreach(range(1, 10) as $index)
+		{
+			$MODEL$::create([
+
+			]);
+		}
+	}
+
+}
