@@ -9,6 +9,10 @@
     {{HTML::style(Theme::path('css/theme.css'))}}
     {{HTML::style('libs/fontawesome/css/font-awesome.min.css')}}
 
+    <!-- load js scripts -->
+    {{HTML::script('libs/jquery/dist/jquery.min.js')}}
+    {{HTML::script('libs/bootstrap/dist/js/bootstrap.min.js')}}
+
 </head>
 
 <body>
@@ -75,9 +79,7 @@
         @yield('main')
     </div>
     
-    <!-- load js scripts -->
-    {{HTML::script('libs/jquery/dist/jquery.min.js')}}
-    {{HTML::script('libs/bootstrap/dist/js/bootstrap.min.js')}}
+
 </body>
 
 </html>
