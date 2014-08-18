@@ -125,6 +125,7 @@ return array(
 		// additional providers
 		'Way\Generators\GeneratorsServiceProvider',
 		'Cornernote\Themer\ThemerServiceProvider',
+		'Cornernote\QuickLaunch\QuicklaunchServiceProvider',
 
 	),
 
