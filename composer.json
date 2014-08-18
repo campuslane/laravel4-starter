@@ -8,6 +8,7 @@
 		"way/generators": "2.*",
 		"fzaninotto/faker": "v1.3.0",
 		"cornernote/themer": "dev-master",
+		"cornernote/quicklaunch": "dev-master",
 		"michelf/php-markdown": "1.4.1",
 		 "campuslane/commands": "dev-master"
 	},
