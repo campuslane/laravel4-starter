@@ -7,6 +7,7 @@
 		"laravel/framework": "4.2.*", 
 		"way/generators": "2.*",
 		"fzaninotto/faker": "v1.3.0",
+		"guzzlehttp/guzzle": "~4.0", 
 		"cornernote/themer": "dev-master",
 		"cornernote/quicklaunch": "dev-master",
 		"michelf/php-markdown": "1.4.1",
